@@ -1,3 +1,3 @@
 <config>
-    <set xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@level='4']/@tags">drugFortBites,drugAntibiotics</set> <!-- remove drugRecog -->
+    <set xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@level='4']/@tags">drugAntibiotics</set> <!-- remove drugFortBites and drugRecog -->
 </config>

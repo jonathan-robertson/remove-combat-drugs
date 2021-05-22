@@ -1,5 +1,5 @@
 <config>
-    <append xpath="/items/item[@name='drugRecog']">
+    <append xpath="/items/item[@name='drugRecog' or @name='drugFortBites']">
         <property name="CreativeMode" value="Dev" />
     </append>
 </config>
