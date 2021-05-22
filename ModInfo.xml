@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Remove Combat Drugs" />
+		<Description value="Remove combat-related drugs from the game" />
+		<Author value="AlluCash" />
+		<Version value="1.0.0" />
+		<Website value="https://github.com/raid-teams/remove-combat-drugs" />
+	</ModInfo>
+</xml>
