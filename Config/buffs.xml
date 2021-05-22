@@ -1,0 +1,7 @@
+<config>
+    <remove xpath="/buffs/buff[@name='buffDrunkGrandpasMoonshine']" />
+    <remove xpath="/buffs/buff[@name='buffDrugRecog']" />
+    <remove xpath="/buffs/buff[@name='buffDrugFortBites']" />
+    <remove xpath="/buffs/buff[@name='buffDrugAtomJunkies']" />
+    <remove xpath="/buffs/buff[@name='buffDrugHealthBar']" />
+</config>

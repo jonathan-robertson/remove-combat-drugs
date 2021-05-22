@@ -1,0 +1,44 @@
+<config>
+    <!-- drugRecog -->
+    <set xpath="/items/item[@name='drugRecog']/effect_group[@name='Drug Tier 4']/display_value[@name='EntityDamage']/@value">400</set>
+    <set xpath="/items/item[@name='drugRecog']/effect_group[@name='Drug Tier 4']/display_value[@name='dDuration']/@value">1</set>
+    <set xpath="/items/item[@name='drugRecog']/effect_group[@name='Drug Tier 4']/display_value[@name='$waterAmountAdd']/@value">20</set>
+    <!-- It is just small amount of water now, no need to remove from loot or trader -->
+
+    <!-- drugFortBites -->
+    <set xpath="/items/item[@name='drugFortBites']/effect_group[@name='Drug Tier 4']/display_value[@name='dHealthLoss']/@value">0</set>
+    <set xpath="/items/item[@name='drugFortBites']/effect_group[@name='Drug Tier 4']/display_value[@name='dDuration']/@value">1</set>
+    <set xpath="/items/item[@name='drugFortBites']/effect_group[@name='Drug Tier 4']/display_value[@name='$waterAmountAdd']/@value">0</set>
+    <insertAfter xpath="/items/item[@name='drugFortBites']/effect_group[@name='Drug Tier 4']/display_value[2]">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5" />
+    </insertAfter>
+    <insertAfter xpath="/items/item[@name='drugFortBites']/effect_group[@name='Drug Tier 4']/display_value[2]">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
+    </insertAfter>
+    <!-- It is just tiny amount of food now, no need to remove from loot or trader -->
+
+    <!-- drugAtomJunkies -->
+    <set xpath="/items/item[@name='drugAtomJunkies']/effect_group[@name='Candy Tier 1']/display_value[@name='dExDamageBlock']/@value">0</set>
+    <set xpath="/items/item[@name='drugAtomJunkies']/effect_group[@name='Candy Tier 1']/display_value[@name='dExDamageEntity']/@value">0</set>
+    <set xpath="/items/item[@name='drugAtomJunkies']/effect_group[@name='Candy Tier 1']/display_value[@name='dDuration']/@value">1</set>
+    <!-- It is just tiny amount of food now, no need to remove from loot or trader -->
+
+    <!-- drugHealthBar -->
+    <set xpath="/items/item[@name='drugHealthBar']/effect_group[@name='Candy Tier 1']/display_value[@name='dMaxHealthBonus']/@value">0</set>
+    <set xpath="/items/item[@name='drugHealthBar']/effect_group[@name='Candy Tier 1']/display_value[@name='dBuffResistance']/@value">0</set>
+    <set xpath="/items/item[@name='drugHealthBar']/effect_group[@name='Candy Tier 1']/display_value[@name='dDuration']/@value">1</set>
+    <!-- It is just tiny amount of food now, no need to remove from loot or trader -->
+
+    <!-- drugRockBusters -->
+    <set xpath="/items/item[@name='drugRockBusters']/effect_group[@name='Candy Tier 1']/display_value[@name='dDuration']/@value">1</set>
+    <!-- It is just tiny amount of food now, no need to remove from loot or trader -->
+
+    <!-- drinkJarGrandpasMoonshine -->
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dEntityDamage']/@value">0</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dStunResist']/@value">0</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dHealthLoss']/@value">0</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dHealthAmount']/@value">0</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dStaminaRegen']/@value">0</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/effect_group[@name='Drink Tier 5']/requirement[@name='NotHasBuff']/display_value[@name='dDuration']/@value">1</set>
+    <!-- It just makes peoples screen mess up for a second now, no need to really remove it from loot or trader  -->
+</config>
