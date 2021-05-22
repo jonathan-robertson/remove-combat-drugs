@@ -3,4 +3,5 @@
     <remove xpath="/lootcontainers/lootgroup/item[@name='drugFortBites']" />
     <remove xpath="/lootcontainers/lootgroup/item[@name='drugAtomJunkies']" />
     <remove xpath="/lootcontainers/lootgroup/item[@name='drugHealthBar']" />
+    <remove xpath="/lootcontainers/lootgroup/item[@name='drugNerdTats']" />
 </config>
