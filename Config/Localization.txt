@@ -1,0 +1,2 @@
+Key,File,Type,english
+perkPhysicianRank4LongDesc,progression,perk Int,"Miracle worker. Medical healing items heal 75% more health over time. Gain 100% more XP using bandages, first aid bandages, first aid kits and splints. Can now craft antibiotics. Craft items 40% faster at chemistry stations."

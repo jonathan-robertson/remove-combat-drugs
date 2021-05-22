@@ -1,0 +1,3 @@
+<config>
+    <remove xpath="/recipes/recipe[@name='drugRecog']" />
+</config>

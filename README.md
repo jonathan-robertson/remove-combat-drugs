@@ -2,15 +2,27 @@
 
 Remove combat-related drugs from the game with the goal of encouraging fast-paced encounters without the extra overhead of having to slam drugs to survive.
 
-## Add
-
-- TODO
-
 ## Remove
 
-- combat-related drugs
-- TODO
+Name | Reason
+--- | ---
+drugRecog | buffs damage output
+drugFortBites | buffs defense
+drugAtomJunkies | buffs explosive damage
+drugHealthBar | increases max health, crit resist, and natural healing
+drugNerdTats | buffs user with AOE shock for 5 minutes
 
-## Change
+## Not Adjusted
 
-- TODO
+- drugVitamins
+- drugPainkillers
+- drugHerbalAntibiotics
+- drugSteroids
+- drugCovertCats
+- drugEyeCandy
+- drugHackers
+- drugJailBreakers
+- drugOhShitzDrops
+- drugRockBusters
+- drugSkullCrushers
+- drugSugarButts
