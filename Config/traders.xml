@@ -2,4 +2,5 @@
     <remove xpath="/traders/trader_item_groups/trader_item_group/item[@name='drugRecog']" />
     <remove xpath="/traders/trader_item_groups/trader_item_group/item[@name='drugFortBites']" />
     <remove xpath="/traders/trader_item_groups/trader_item_group/item[@name='drugAtomJunkies']" />
+    <remove xpath="/traders/trader_item_groups/trader_item_group/item[@name='drugHealthBar']" />
 </config>
