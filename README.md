@@ -11,6 +11,7 @@ drugFortBites | buffs defense
 drugAtomJunkies | buffs explosive damage
 drugHealthBar | increases max health, crit resist, and natural healing
 drugNerdTats | buffs user with AOE shock for 5 minutes
+drinkJarGrandpasMoonshine | various effects, but buffs damage resist by 50%
 
 ## Not Adjusted
 
@@ -26,3 +27,5 @@ drugNerdTats | buffs user with AOE shock for 5 minutes
 - drugRockBusters
 - drugSkullCrushers
 - drugSugarButts
+- drinkJarGrandpasAwesomeSauce
+- drinkJarGrandpasLearningElixir

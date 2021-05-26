@@ -1,4 +1,5 @@
 <config>
     <remove xpath="/recipes/recipe[@name='drugRecog']" />
     <remove xpath="/recipes/recipe[@name='drugFortBites']" />
+    <remove xpath="/recipes/recipe[@name='drinkJarGrandpasMoonshine']" />
 </config>
