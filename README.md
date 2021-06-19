@@ -13,6 +13,12 @@ drugHealthBar | increases max health, crit resist, and natural healing
 drugNerdTats | buffs user with AOE shock for 5 minutes
 drinkJarGrandpasMoonshine | various effects, but buffs damage resist by 50%
 
+## Change
+
+Name | Adjustment
+--- | ---
+drugPainkillers | No longer give 10% reduction in damage received
+
 ## Not Adjusted
 
 - drugVitamins

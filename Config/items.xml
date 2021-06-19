@@ -2,4 +2,6 @@
     <append xpath="/items/item[@name='drugRecog' or @name='drugFortBites' or @name='drugAtomJunkies' or @name='drugHealthBar' or @name='drugNerdTats' or @name='drinkJarGrandpasMoonshine' or @name='drinkJarGrandpasMoonshineSchematic']">
         <property name="CreativeMode" value="Dev" />
     </append>
+
+    <remove xpath="/items/item[@name='drugPainkillers']/effect_group/display_value[@name='dHealthLoss']" />
 </config>
