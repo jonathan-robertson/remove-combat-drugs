@@ -1,5 +1,7 @@
 # Remove Combat Drugs
 
+![Compatible With A20 b238](https://img.shields.io/badge/Compatibile%20With-A20%20b238-blue.svg) ![Compatible With A19](https://img.shields.io/badge/Compatibile%20With-A19-blue.svg)
+
 Remove combat-related drugs from the game with the goal of encouraging fast-paced encounters without the extra overhead of having to slam drugs to survive.
 
 ## Remove
