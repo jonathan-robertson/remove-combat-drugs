@@ -1,6 +1,7 @@
 # Remove Combat Drugs
 
-![Compatible With A20 b238](https://img.shields.io/badge/Compatibile%20With-A20%20b238-blue.svg) ![Compatible With A19](https://img.shields.io/badge/Compatibile%20With-A19-blue.svg)
+[![Tested with A20.2 b2](https://img.shields.io/badge/A20.2%20b2-tested-blue.svg)](https://7daystodie.com/)
+[![Tested with A19](https://img.shields.io/badge/A19-tested-blue.svg)](https://7daystodie.com/)
 
 Remove combat-related drugs from the game with the goal of encouraging fast-paced encounters without the extra overhead of having to slam drugs to survive.
 
