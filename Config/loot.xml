@@ -1,9 +1,3 @@
 <config>
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drugRecog']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drugFortBites']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drugAtomJunkies']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drugHealthBar']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drugNerdTats']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarGrandpasMoonshine']" />
-    <remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarGrandpasMoonshineSchematic']" />
+    <remove xpath="/lootcontainers/lootgroup/item[@name='drugRecog' or @name='drugFortBites' or @name='drugAtomJunkies' or @name='drugHealthBar' or @name='drugNerdTats' or @name='drinkJarGrandpasMoonshine' or @name='drinkJarGrandpasMoonshineSchematic']" />
 </config>
