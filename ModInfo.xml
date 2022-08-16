@@ -3,8 +3,8 @@
 	<ModInfo>
 		<Name value="Remove Combat Drugs" />
 		<Description value="Remove combat-related drugs from the game" />
-		<Author value="AlluCash, Jonathan Robertson" />
-		<Version value="1.2.2" />
+		<Author value="Jonathan Robertson (Kanaverum), AlluCash" />
+		<Version value="2.0.0" />
 		<Website value="https://github.com/fatal-expedition/remove-combat-drugs" />
 	</ModInfo>
 </xml>
