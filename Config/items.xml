@@ -1,7 +1,12 @@
 <config>
     <append xpath="/items/item[@name='drugRecog' or @name='drugFortBites' or @name='drugAtomJunkies' or @name='drugHealthBar' or @name='drugNerdTats' or @name='drinkJarGrandpasMoonshine' or @name='drinkJarGrandpasMoonshineSchematic']">
         <property name="CreativeMode" value="Dev" />
+        <property name="DescriptionKey" value="disableCombatDrugsItemDescription" />
     </append>
+
+    <!-- disable the effects or triggers for these drugs/candy -->
+    <remove xpath="/items/item[@name='drugRecog' or @name='drugFortBites' or @name='drugAtomJunkies' or @name='drugHealthBar' or @name='drugNerdTats' or @name='drinkJarGrandpasMoonshine' or @name='drinkJarGrandpasMoonshineSchematic']/property[@class='Action0']" />
+    <remove xpath="/items/item[@name='drugRecog' or @name='drugFortBites' or @name='drugAtomJunkies' or @name='drugHealthBar' or @name='drugNerdTats' or @name='drinkJarGrandpasMoonshine' or @name='drinkJarGrandpasMoonshineSchematic']/effect_group" />
 
     <remove xpath="/items/item[@name='drugPainkillers']/effect_group/display_value[@name='dHealthLoss']" />
 </config>
