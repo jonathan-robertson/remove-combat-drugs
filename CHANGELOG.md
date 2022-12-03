@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.1.0] - 2022-12-03
 
 - remove drugs from trader-specific inventory
+- safely disable any drugs already owned by players
 
 ## [2.0.0] - 2022-08-18
 
