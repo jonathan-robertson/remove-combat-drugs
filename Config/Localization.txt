@@ -2,11 +2,22 @@ Key,File,Type,english
 perkPhysicianRank4LongDesc,progression,perk Int,"Miracle worker. Medical healing items heal 75% more health over time. Gain 100% more XP using bandages, first aid bandages, first aid kits and splints. Can now craft antibiotics. Craft items 40% faster at chemistry stations."
 
 drugRecog,items,Medical,"Recog [ff8000]DISABLED[-]"
-drugFortBites,items,Medical,"Fort Bites [ff8000]DISABLED[-]"
-drugAtomJunkies,items,Medical,"Atom Junkies [ff8000]DISABLED[-]"
-drugHealthBar,items,Medical,"Health Bar [ff8000]DISABLED[-]"
-drugNerdTats,items,Medical,"Nerd Tats [ff8000]DISABLED[-]"
-drinkJarGrandpasMoonshine,items,Food,"Grandpa's Moonshine [ff8000]DISABLED[-]"
-drinkJarGrandpasMoonshineSchematic,items,Food,"Grandpa's Moonshine Recipe [ff8000]DISABLED[-]"
+drugRecogDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
 
-disableCombatDrugsItemDescription,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+drugFortBites,items,Medical,"Fort Bites [ff8000]DISABLED[-]"
+drugFortBitesDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+
+drugAtomJunkies,items,Medical,"Atom Junkies [ff8000]DISABLED[-]"
+drugAtomJunkiesDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+
+drugHealthBar,items,Medical,"Health Bar [ff8000]DISABLED[-]"
+drugHealthBarDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+
+drugNerdTats,items,Medical,"Nerd Tats [ff8000]DISABLED[-]"
+drugNerdTatsDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+
+drinkJarGrandpasMoonshine,items,Food,"Grandpa's Moonshine [ff8000]DISABLED[-]"
+drinkJarGrandpasMoonshineDesc,items,Food,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
+
+drinkJarGrandpasMoonshineSchematic,items,Food,"Grandpa's Moonshine Recipe [ff8000]DISABLED[-]"
+drinkJarGrandpasMoonshineSchematicDesc,items,Food,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
