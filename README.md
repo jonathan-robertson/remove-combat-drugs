@@ -1,8 +1,21 @@
 # Remove Combat Drugs
 
-## [![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.6%20b9-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/fatal-expedition/remove-combat-drugs/actions/workflows/release.yml/badge.svg)](https://github.com/fatal-expedition/remove-combat-drugs/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21%20b317-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml)
+
+## Summary
 
 Remove combat-related drugs from the game with the goal of encouraging fast-paced encounters without the extra overhead of having to slam drugs to survive.
+
+### Support
+
+🗪 If you would like support for this mod, please feel free to reach out via [Discord](https://discord.gg/tRJHSB9Uk7).
+
+- [Remove Combat Drugs](#remove-combat-drugs)
+  - [Summary](#summary)
+    - [Support](#support)
+  - [Remove](#remove)
+  - [Change](#change)
+  - [Not Adjusted](#not-adjusted)
 
 ## Remove
 
