@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.0.0] - 2023-06-22
 
+- remove refs to moonshine schematic (deprecated)
 - update progression for a21
 - update to a21 modinfo file format
 

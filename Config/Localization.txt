@@ -18,6 +18,3 @@ drugNerdTatsDesc,items,Medical,"This item has been [ff8000]disabled by a mod[-].
 
 drinkJarGrandpasMoonshine,items,Food,"Grandpa's Moonshine [ff8000]DISABLED[-]"
 drinkJarGrandpasMoonshineDesc,items,Food,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
-
-drinkJarGrandpasMoonshineSchematic,items,Food,"Grandpa's Moonshine Recipe [ff8000]DISABLED[-]"
-drinkJarGrandpasMoonshineSchematicDesc,items,Food,"This item has been [ff8000]disabled by a mod[-]. You can sell it to a trader for some money, but that is all."
