@@ -1,4 +1,19 @@
 <config>
-    <set xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@level='4']/@tags">drugAntibiotics</set> <!-- remove drugFortBites and drugRecog -->
-    <set xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='5,5']/@tags">drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir</set> <!-- remove drinkJarGrandpasMoonshine -->
+    <!-- drugFortBites -->
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@tags='drugFortBites']" />
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidBandage,drugFortBites']/unlock_entry[@item='drugFortBites']" />
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidBandage,drugFortBites']/@unlock_level">5</set>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidBandage,drugFortBites']/@name_key">medicalT1-1</set>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidBandage,drugFortBites']/@icon">medicalFirstAidBandage</set>
+
+    <!-- drugRecog -->
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@tags='drugRecog']" />
+    <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalPlasterCast,drugHerbalAntibiotics,drugRecog']/unlock_entry[@item='drugRecog']" />
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalPlasterCast,drugHerbalAntibiotics,drugRecog']/@unlock_level">20,30</set>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalPlasterCast,drugHerbalAntibiotics,drugRecog']/@name_key">medicalT2-1,medicalT2-2</set>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalPlasterCast,drugHerbalAntibiotics,drugRecog']/@icon">medicalPlasterCast,drugHerbalAntibiotics</set>
+
+    <!-- drinkJarGrandpasMoonshine -->
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/display_entry[@name_key='foodT4-1,foodT4-2,foodT4-3,foodT4-4,foodT4-5']/unlock_entry[@item='foodShepardsPie,drinkJarGrandpasMoonshine']/@item">foodShepardsPie</set>
+    <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group/passive_effect[@tags='foodShepardsPie,drinkJarGrandpasMoonshine']/@tags">foodShepardsPie</set>
 </config>

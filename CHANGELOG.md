@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2023-06-22
+
+- remove refs to moonshine schematic (deprecated)
+- update progression for a21
+- update to a21 modinfo file format
+
 ## [2.1.2] - 2023-03-11
 
 - remove unused xpath entry in traders
