@@ -2,7 +2,7 @@
 <xml>
 	<Name value="kanaverum-remove-combat-drugs" />
 	<DisplayName value="Remove Combat Drugs" />
-	<Version value="3.0.0" />
+	<Version value="4.0.0" />
 	<Description value="Remove combat-related drugs from the game." />
 	<Author value="Jonathan Robertson (Kanaverum), AlluCash" />
 	<Website value="https://github.com/jonathan-robertson/remove-combat-drugs" />
