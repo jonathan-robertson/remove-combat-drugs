@@ -1,3 +1,0 @@
-<config>
-    <remove xpath="/buffs/buff[@name='buffDrugPainkillers']/effect_group/passive_effect[@name='GeneralDamageResist']" />
-</config>
