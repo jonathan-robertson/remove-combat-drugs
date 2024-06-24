@@ -1,6 +1,6 @@
 # Remove Combat Drugs
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21.2%20b30-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21.2%20b30-blue.svg)](https://7daystodie.com/) [![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-1.0%20b309-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/remove-combat-drugs/actions/workflows/release.yml)
 
 ## Summary
 
